@@ -8,7 +8,7 @@ from damsmoviesdk import MovieClient, MovieConfig
 
 @st.cache_resource
 def get_movie_client():
-    config = MovieConfig(movie_base_url="https://movie-backend-3m0o.onrender.com/")
+    config = MovieConfig(movie_base_url="https://movie-backend-3m0o.onrender.com")
     client = MovieClient(config=config)
     client.health_check()
     return client

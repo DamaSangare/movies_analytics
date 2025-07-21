@@ -13,8 +13,8 @@ col1, col2, col3 = st.columns([1, 4, 1])
 # Colonne gauche : Image
 with col1:
     st.image(
-        "https://raw.githubusercontent.com/JosueAfouda/films-analytics/main/streamlit_app/linkedin_profil.png",  # Remplacez par le chemin de votre image
-        width=80,     # Ajustez la taille si nécessaire
+        "DamaSANGARE.jpg",  # Mon image
+        width=100,     # Taille de l'image
         use_container_width=False,
     )
 
@@ -32,8 +32,8 @@ with col3:
     st.markdown(
         """
         <div style='text-align: right;'>
-            <a href="https://www.linkedin.com/in/josu%C3%A9-afouda/" target="_blank" style='text-decoration: none; color: #0077b5;'>
-                <strong>Josué AFOUDA</strong>
+            <a href="https://www.linkedin.com/in/dama-sangare-b0a924203/" target="_blank" style='text-decoration: none; color: #0077b5;'>
+                <strong>Dama SANGARE</strong>
             </a>
         </div>
         """,
@@ -46,11 +46,11 @@ st.write(" ")
 # Titre
 st.markdown("# **Phase 1 : Développeur Python & Architecte API**")
 # Afficher l'image séparément
-st.image("https://raw.githubusercontent.com/JosueAfouda/films-analytics/main/streamlit_app/architecture.png", use_container_width=True)
+st.image("architecturephase1.png", use_container_width=True)
 
 st.markdown(
         """
-        <a href="https://github.com/JosueAfouda/movie-backend" target="_blank">
+        <a href="https://github.com/DamaSangare/movie_backend" target="_blank">
             <button style="background-color: #28a745; color: white; padding: 10px 20px; border: none; border-radius: 8px; font-size: 16px;">
                 📦 Cliquer pour voir le Code de la Phase 1
             </button>
@@ -67,11 +67,11 @@ st.write(" ")
 # Titre
 st.markdown("# **Phase 2 : Data Analyst - Exploration et Visualisation**")
 # Afficher l'image séparément
-st.image("https://raw.githubusercontent.com/JosueAfouda/films-analytics/main/streamlit_app/architecturephase.png", use_container_width=True)
+st.image("architecturephase2.png", use_container_width=True)
 
 st.markdown(
         """
-        <a href="https://github.com/JosueAfouda/films-analytics" target="_blank">
+        <a href="https://github.com/DamaSangare/movies_analytics" target="_blank">
             <button style="background-color: #28a745; color: white; padding: 10px 20px; border: none; border-radius: 8px; font-size: 16px;">
                 📊 Cliquer pour voir le Code de la Phase 2
             </button>

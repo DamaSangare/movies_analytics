@@ -13,7 +13,7 @@ col1, col2, col3 = st.columns([1, 4, 1])
 # Colonne gauche : Image
 with col1:
     st.image(
-        "https://raw.githubusercontent.com/DamaSangare/movies_analytics/blob/main/streamlit_app/DamaSANGARE.jpg",  # Mon image
+        "https://raw.githubusercontent.com/DamaSangare/movies_analytics/main/streamlit_app/DamaSANGARE.jpg",  # Mon image
         width=100,     # Taille de l'image
         use_container_width=False,
     )
@@ -46,7 +46,7 @@ st.write(" ")
 # Titre
 st.markdown("# **Phase 1 : Développeur Python & Architecte API**")
 # Afficher l'image séparément
-st.image("https://raw.githubusercontent.com/DamaSangare/movies_analytics/blob/main/streamlit_app/architecturephase1.png", use_container_width=True)
+st.image("https://raw.githubusercontent.com/DamaSangare/movies_analytics/main/streamlit_app/architecturephase1.png", use_container_width=True)
 
 st.markdown(
         """
@@ -67,7 +67,7 @@ st.write(" ")
 # Titre
 st.markdown("# **Phase 2 : Data Analyst - Exploration et Visualisation**")
 # Afficher l'image séparément
-st.image("https://raw.githubusercontent.com/DamaSangare/movies_analytics/blob/main/streamlit_app/architecturephase2.png", use_container_width=True)
+st.image("https://raw.githubusercontent.com/DamaSangare/movies_analytics/main/streamlit_app/architecturephase2.png", use_container_width=True)
 
 st.markdown(
         """

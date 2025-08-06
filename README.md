@@ -1,5 +1,7 @@
 # 📊 Projet – Analyse Cinématographique : Exploration & Visualisation des Données
 
+![](streamlit_app/architecturephase2.png)
+
 ## 🎯 Objectif
 Déployer une chaîne complète d’analyse et de visualisation à partir de données issues d’une API cinématographique, en exploitant un SDK Python, Jupyter Notebook, et une application web interactive développée avec Streamlit.
 

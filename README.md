@@ -88,6 +88,9 @@ cd movies_analytics
 python -m venv .venv
 source .venv\Scripts\activate # ou  source .venv/bin/activate sous Linux
 
+# Toujours réveiller de notre api sur render avant l'installation du sdk "" damsmoviesdk ""
+# Lien de l'api sur Render:  https://movie-backend-3m0o.onrender.com
+
 # Installer les dépendances nécessaires
 pip install damsmoviesdk
 pip install streamlit

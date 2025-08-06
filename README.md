@@ -64,6 +64,20 @@ Déployer une chaîne complète d’analyse et de visualisation à partir de don
 - Environnement virtuel Python avec `venv`
 - Utilisation de **VSCode** comme IDE principal
 
+---
+
+## 💼 Compétences mises en œuvre 
+
+- 📊 Réalisation d’analyses exploratoires à partir d’un SDK Python personnalisé
+- 📁 Manipulation et visualisation de données avec pandas, seaborn et matplotlib
+- 🧠 Utilisation de Jupyter Notebook pour une analyse interactive et bien documentée
+- 🌐 Développement d’une application web de visualisation avec Streamlit
+- 🧭 Création de filtres dynamiques et de graphiques interactifs
+- 🖼️ Intégration d’une API externe (OMDb) pour enrichir les données avec affiches et métadonnées
+- 🗂️ Structuration claire des livrables pour faciliter la réutilisation
+
+---
+
 ### 🔢 Installation & lancement
 ```bash
 # Cloner le projet
@@ -77,3 +91,4 @@ source .venv\Scripts\activate # ou  source .venv/bin/activate sous Linux
 # Installer les dépendances nécessaires
 pip install damsmoviesdk
 pip install streamlit
+
